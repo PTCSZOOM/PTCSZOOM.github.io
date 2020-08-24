@@ -13,6 +13,9 @@
   </style>
   
   <body>
-    <iframe src="<script>getURL()</script>">
+    <iframe id="mainFrame" src="">
+      <script>
+        document.getElementById("mainFrame").src = getURL();
+</script>
   </body>
 </html>
