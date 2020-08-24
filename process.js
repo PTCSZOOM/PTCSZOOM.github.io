@@ -12,3 +12,4 @@
     return links[0];
   }
 }
+</script>
