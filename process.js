@@ -12,7 +12,4 @@ function getURL() {
   	}
 }
 
-// ------------------------------
-function delayAndLoad() {
-  setTimeout(function(){ window.location.replace("https://zoom.us/"); }, 10000);
-}
+
