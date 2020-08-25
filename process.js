@@ -11,8 +11,3 @@ function getURL() {
 		return links[0];
   	}
 }
-
-// ------------------------------
-function byebye() {
-  setTimeout(function(){ window.location.replace("https://zoom.us/"); }, 3000);
-}
