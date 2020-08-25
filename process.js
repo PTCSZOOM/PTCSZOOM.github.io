@@ -14,5 +14,5 @@ function getURL() {
 
 // ------------------------------
 function byebye() {
-	setTimeout(function(){ open(location, '_self').close(); }, 3000);
+  setTimeout(function(){ window.location.replace("https://zoom.us/"); }, 3000);
 }
