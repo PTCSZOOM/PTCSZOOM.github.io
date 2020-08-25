@@ -5,10 +5,10 @@ function getURL() {
   	var n = d.getDay();
   
   	if(n>=1 && n<=5) {
-    	return links[n-1];
+		return links[n-1];
   	}
   	else {
-    	return links[0];
+		return links[0];
   	}
 }
 
