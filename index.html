@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <script src="process.js"> </script>
-  
-  <style>
-    iframe {
-      visibility: hidden;
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 0;
-      width: 0;
-      border: none;
-    }
-  </style>
+  <script src="process.js"> 
+    window.open(getURL(),"_self")
+  </script>
   
   <body>
-      <iframe id="mainFrame" src=""></iframe>
-      <script>
-        document.getElementById("mainFrame").src = getURL();
-        delayAndLoad);
-      </script>
-
   </body>
 </html>
